@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enquiry received | XINGJIHANG Power</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">XJ</span>
+      <span>XINGJIHANG<small>Industrial Power Equipment</small></span>
+    </a>
+  </div>
+</header>
+
+<section class="section" style="padding-top:clamp(56px,8vw,110px)">
+  <div class="wrap" style="max-width:680px;text-align:center">
+    <div style="width:64px;height:64px;border-radius:50%;background:#e8f6ee;display:grid;place-items:center;margin:0 auto 26px">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#2f9e63" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+    </div>
+    <h1 style="font-size:clamp(1.6rem,3.4vw,2.3rem)">Enquiry received</h1>
+    <p class="lede" style="margin:0 auto 30px">
+      We have your message. A quotation will come from a company mailbox within 12 working hours —
+      usually much sooner if it arrives during China business hours.
+    </p>
+
+    <div class="callout" style="text-align:left">
+      <strong>Two ways to move faster:</strong>
+      <br>1. Send the single-line diagram, load list or nameplate photos by replying to our confirmation email.
+      <br>2. Message us on WhatsApp — most buyers get an answer in minutes rather than hours.
+    </div>
+
+    <div class="hero-actions" style="justify-content:center;margin-top:28px">
+      <a class="btn btn-primary" data-wa href="#">Open WhatsApp</a>
+      <a class="btn btn-ghost" href="index.html">Back to homepage</a>
+    </div>
+
+    <p style="font-size:.84rem;color:var(--muted);margin-top:34px">
+      If you do not see our reply, check your spam folder — quotations with PDF attachments
+      land there more often than they should.
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer" style="margin-top:40px">
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:0;padding-top:0">
+      <span>© <span data-year>2026</span> Macheng Xingjihang Import &amp; Export Co., Ltd.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var WHATSAPP_NUMBER = "861380000000";
+  var WA_TEXT = encodeURIComponent("Hello, I just submitted an enquiry through your website.");
+  document.querySelectorAll("[data-wa]").forEach(function (el) {
+    el.setAttribute("href", "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + WA_TEXT);
+    el.setAttribute("target", "_blank");
+    el.setAttribute("rel", "noopener");
+  });
+  document.querySelectorAll("[data-year]").forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
+</body>
+</html>
