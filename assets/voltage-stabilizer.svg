@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" role="img" aria-label="Servo motor voltage stabilizer cabinet, single and three phase">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4ecf4"/><stop offset="1" stop-color="#c8d6e3"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f8fb"/><stop offset="1" stop-color="#dde7f0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d3a54"/><stop offset="1" stop-color="#0d2033"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="200" cy="309" rx="118" ry="12" fill="#b9c9d8" opacity=".5"/>
+
+  <!-- cabinet body -->
+  <rect x="120" y="52" width="160" height="244" rx="3" fill="url(#body)" stroke="#5d768c" stroke-width="2"/>
+  <!-- top cap -->
+  <path d="M114 52 L286 52 L282 40 L118 40 Z" fill="#b6c7d6" stroke="#5d768c" stroke-width="2"/>
+  <!-- recessed front panel -->
+  <rect x="132" y="64" width="136" height="220" rx="2" fill="url(#panel)" stroke="#8ba0b3" stroke-width="1.5"/>
+
+  <!-- digital display -->
+  <rect x="146" y="78" width="108" height="44" rx="2" fill="url(#glass)" stroke="#3c5a75" stroke-width="1.5"/>
+  <text x="200" y="100" font-family="monospace" font-size="17" fill="#4ee6a8" text-anchor="middle" letter-spacing="1">220.4</text>
+  <text x="200" y="114" font-family="monospace" font-size="9" fill="#6d9c8a" text-anchor="middle" letter-spacing="1.5">V · OUTPUT</text>
+
+  <!-- three analogue meters -->
+  <g stroke="#5d768c" stroke-width="1.6" fill="#fbfdfe">
+    <circle cx="156" cy="152" r="17"/><circle cx="200" cy="152" r="17"/><circle cx="244" cy="152" r="17"/>
+  </g>
+  <g stroke="#e07b16" stroke-width="1.8" stroke-linecap="round">
+    <line x1="156" y1="152" x2="163" y2="142"/><line x1="200" y1="152" x2="205" y2="141"/><line x1="244" y1="152" x2="251" y2="143"/>
+  </g>
+  <g fill="#7b8fa2" font-family="sans-serif" font-size="6" text-anchor="middle">
+    <text x="156" y="176">INPUT</text><text x="200" y="176">OUTPUT</text><text x="244" y="176">LOAD</text>
+  </g>
+
+  <!-- indicator LEDs -->
+  <g>
+    <circle cx="160" cy="192" r="4" fill="#3fbf7f"/><circle cx="178" cy="192" r="4" fill="#3fbf7f"/>
+    <circle cx="196" cy="192" r="4" fill="#e07b16"/><circle cx="214" cy="192" r="4" fill="#c3d0db"/>
+    <circle cx="232" cy="192" r="4" fill="#c3d0db"/>
+  </g>
+  <text x="250" y="195" font-family="sans-serif" font-size="7" fill="#7b8fa2">RUN</text>
+
+  <!-- ventilation louvers -->
+  <g stroke="#a8bccc" stroke-width="2.4" stroke-linecap="round">
+    <line x1="148" y1="216" x2="252" y2="216"/><line x1="148" y1="224" x2="252" y2="224"/>
+    <line x1="148" y1="232" x2="252" y2="232"/><line x1="148" y1="240" x2="252" y2="240"/>
+    <line x1="148" y1="248" x2="252" y2="248"/><line x1="148" y1="256" x2="252" y2="256"/>
+    <line x1="148" y1="264" x2="252" y2="264"/>
+  </g>
+
+  <!-- door lock and hinge -->
+  <rect x="258" y="196" width="6" height="20" rx="2" fill="#8ba0b3"/>
+  <circle cx="261" cy="188" r="3.4" fill="#5d768c"/>
+  <!-- side seam -->
+  <line x1="270" y1="64" x2="270" y2="284" stroke="#b3c4d4" stroke-width="1.2"/>
+
+  <!-- feet -->
+  <rect x="128" y="296" width="20" height="9" rx="2" fill="#5d768c"/>
+  <rect x="252" y="296" width="20" height="9" rx="2" fill="#5d768c"/>
+
+  <!-- cable gland stub on top -->
+  <rect x="192" y="26" width="16" height="14" rx="2" fill="#8ba0b3" stroke="#5d768c" stroke-width="1.4"/>
+  <line x1="200" y1="18" x2="200" y2="26" stroke="#5d768c" stroke-width="2"/>
+</svg>

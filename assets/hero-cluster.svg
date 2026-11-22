@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="Voltage stabilizer, dry type transformer and low voltage switchgear cluster">
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9dbad3" stop-opacity=".85"/>
+      <stop offset=".5" stop-color="#c6d9e9" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#7d9ab4" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a5773"/><stop offset="1" stop-color="#22394f"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3eef7"/><stop offset="1" stop-color="#b0c8dc"/>
+    </linearGradient>
+    <linearGradient id="coil2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9822f"/><stop offset=".45" stop-color="#f0b673"/><stop offset="1" stop-color="#a9681f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#e07b16" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e07b16" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="270" cy="220" r="200" fill="url(#glow)"/>
+  <ellipse cx="262" cy="358" rx="215" ry="20" fill="#04101c" opacity=".55"/>
+
+  <!-- ============ transformer (centre, tallest) ============ -->
+  <g>
+    <!-- top yoke -->
+    <path d="M168 104 L232 92 L352 92 L352 112 L232 112 L168 124 Z" fill="url(#top)" opacity=".95"/>
+    <path d="M168 104 L168 124 L168 136 L232 124 L232 112 Z" fill="#4a6a88" opacity=".9"/>
+    <!-- limbs + coils -->
+    <g>
+      <rect x="196" y="124" width="34" height="150" fill="url(#face)"/>
+      <rect x="196" y="124" width="34" height="150" fill="url(#side)" opacity=".25"/>
+      <rect x="252" y="124" width="34" height="150" fill="url(#face)"/>
+      <rect x="252" y="124" width="34" height="150" fill="url(#side)" opacity=".25"/>
+      <rect x="308" y="124" width="34" height="150" fill="url(#face)"/>
+      <rect x="308" y="124" width="34" height="150" fill="url(#side)" opacity=".25"/>
+    </g>
+    <!-- copper coils -->
+    <g>
+      <rect x="206" y="132" width="52" height="136" rx="5" fill="url(#coil2)" opacity=".9"/>
+      <ellipse cx="232" cy="132" rx="26" ry="8" fill="#f5c489" opacity=".95"/>
+      <rect x="262" y="132" width="52" height="136" rx="5" fill="url(#coil2)" opacity=".9"/>
+      <ellipse cx="288" cy="132" rx="26" ry="8" fill="#f5c489" opacity=".95"/>
+      <rect x="318" y="132" width="52" height="136" rx="5" fill="url(#coil2)" opacity=".9"/>
+      <ellipse cx="344" cy="132" rx="26" ry="8" fill="#f5c489" opacity=".95"/>
+    </g>
+    <!-- bottom yoke -->
+    <path d="M190 282 L232 272 L360 272 L360 292 L232 292 L190 302 Z" fill="url(#top)" opacity=".95"/>
+    <path d="M190 282 L190 302 L190 314 L232 304 L232 292 Z" fill="#4a6a88" opacity=".9"/>
+    <!-- base -->
+    <path d="M182 308 L232 298 L372 298 L372 316 L232 316 L182 326 Z" fill="#5d7c98"/>
+    <!-- bushings -->
+    <g fill="#8fb0cb">
+      <rect x="204" y="72" width="9" height="22" rx="2"/><rect x="228" y="72" width="9" height="22" rx="2"/>
+      <rect x="252" y="72" width="9" height="22" rx="2"/><rect x="276" y="72" width="9" height="22" rx="2"/>
+      <rect x="320" y="72" width="9" height="22" rx="2"/><rect x="344" y="72" width="9" height="22" rx="2"/>
+    </g>
+    <rect x="196" y="62" width="166" height="9" rx="3" fill="#e07b16" opacity=".92"/>
+  </g>
+
+  <!-- ============ stabilizer (left, shorter) ============ -->
+  <g>
+    <path d="M40 168 L86 168 L86 332 L40 332 Z" fill="url(#face)"/>
+    <path d="M86 168 L114 156 L114 320 L86 332 Z" fill="url(#side)" opacity=".85"/>
+    <path d="M40 168 L86 168 L114 156 L68 156 Z" fill="url(#top)"/>
+    <!-- screen -->
+    <rect x="50" y="182" width="26" height="20" rx="2" fill="#0d2033" opacity=".9"/>
+    <text x="63" y="196" font-family="monospace" font-size="8" fill="#4ee6a8" text-anchor="middle">220</text>
+    <!-- meters -->
+    <circle cx="56" cy="222" r="6" fill="#e8f1f8" opacity=".9"/>
+    <circle cx="72" cy="222" r="6" fill="#e8f1f8" opacity=".9"/>
+    <!-- louvres -->
+    <g stroke="#5d7c98" stroke-width="2" opacity=".65" stroke-linecap="round">
+      <line x1="50" y1="246" x2="76" y2="246"/><line x1="50" y1="256" x2="76" y2="256"/>
+      <line x1="50" y1="266" x2="76" y2="266"/><line x1="50" y1="276" x2="76" y2="276"/>
+      <line x1="50" y1="286" x2="76" y2="286"/>
+    </g>
+    <circle cx="80" cy="238" r="2.6" fill="#e07b16"/>
+  </g>
+
+  <!-- ============ switchgear (right, three bays) ============ -->
+  <g>
+    <path d="M378 138 L418 138 L418 328 L378 328 Z" fill="url(#face)"/>
+    <path d="M418 138 L440 128 L440 318 L418 328 Z" fill="url(#side)" opacity=".85"/>
+    <path d="M378 138 L418 138 L440 128 L400 128 Z" fill="url(#top)"/>
+    <!-- bay seams -->
+    <g stroke="#4a6a88" stroke-width="1.6" opacity=".6">
+      <line x1="391" y1="140" x2="391" y2="326"/><line x1="405" y1="140" x2="405" y2="326"/>
+    </g>
+    <!-- windows -->
+    <rect x="381" y="152" width="8" height="9" fill="#0d2033" opacity=".85"/>
+    <rect x="394" y="152" width="8" height="9" fill="#0d2033" opacity=".85"/>
+    <rect x="407" y="152" width="8" height="9" fill="#0d2033" opacity=".85"/>
+    <!-- handles -->
+    <rect x="383" y="200" width="5" height="26" rx="2.5" fill="#e07b16" opacity=".9"/>
+    <rect x="396" y="200" width="5" height="26" rx="2.5" fill="#e07b16" opacity=".9"/>
+    <rect x="409" y="200" width="5" height="26" rx="2.5" fill="#e07b16" opacity=".9"/>
+    <!-- louvres -->
+    <g stroke="#5d7c98" stroke-width="2" opacity=".6" stroke-linecap="round">
+      <line x1="381" y1="256" x2="387" y2="256"/><line x1="394" y1="256" x2="400" y2="256"/><line x1="407" y1="256" x2="413" y2="256"/>
+      <line x1="381" y1="266" x2="387" y2="266"/><line x1="394" y1="266" x2="400" y2="266"/><line x1="407" y1="266" x2="413" y2="266"/>
+      <line x1="381" y1="276" x2="387" y2="276"/><line x1="394" y1="276" x2="400" y2="276"/><line x1="407" y1="276" x2="413" y2="276"/>
+      <line x1="381" y1="286" x2="387" y2="286"/><line x1="394" y1="286" x2="400" y2="286"/><line x1="407" y1="286" x2="413" y2="286"/>
+    </g>
+  </g>
+
+  <!-- connection cabling hint -->
+  <g stroke="#e07b16" stroke-width="1.6" opacity=".35" fill="none" stroke-dasharray="5 6">
+    <path d="M114 200 C150 200 160 180 196 176"/>
+    <path d="M360 190 C372 190 372 180 378 176"/>
+  </g>
+</svg>
